@@ -25,3 +25,68 @@ h2 {
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+hr {
+    border:0;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+b {
+    color: #333;
+}
+
+ul {
+    margin: 10px 0 20px 20px;
+    padding-left: 20px;
+
+}
+
+li {
+    color: #555;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+a {
+    color: #2196F3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.footer {
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+@media print {
+    body {
+        background-color: white;
+        padding: 0;
+    }
+    .container {
+        border: none;
+        padding: 0;
+    }
+}
